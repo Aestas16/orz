@@ -1,5 +1,5 @@
-# mosiyuan
+## Orz ZPC_233
 
-膜拜 Siyuan！
+膜拜 ZPC_233！
 
-[https://lmoliver.github.io/mosiyuan/](https://lmoliver.github.io/mosiyuan/index.html)
+[Orz ZPC_233](https://orz.aestas16.top/)
