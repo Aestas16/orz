@@ -5,9 +5,9 @@
 			<li v-for="msg in popMessages" v-html="msg"></li>
 		</ul>
 	</div>
-	<model-alert v-if="showUpdate" :title="`膜拜${ZPC_233} ${VERSION} ${VERSION_NAME}`"
+	<model-alert v-if="showUpdate" :title="`膜拜 ${ZPC_233} ${VERSION} ${VERSION_NAME}`"
 		:value="VERSION_MESSAGE"></model-alert>
-	<h1 v-html="`膜拜${ZPC_233}`"></h1>
+	<h1 v-html="`膜拜 ${ZPC_233}`"></h1>
 	<div>
 		<button style="float: right;"
 			@click="()=>dailyMessage=DAILY_MESSAGES[Math.floor(Math.random()*DAILY_MESSAGES.length)]">{{`换一个`}}</button>
