@@ -28,7 +28,7 @@
 					<span>{{`您已膜拜${pn(Math.floor(moValue))}次`}}</span>
 				</div>
 				<button @click="moSiyuan(1)" style="color:red"
-					v-html="`膜拜${ZPC_233}${moDelta!==1?`${pn(moDelta)}次`:''}`"></button>
+					v-html="`膜拜 ${ZPC_233}$ {moDelta!==1?`${pn(moDelta)}次`:''}`"></button>
 				<span v-if="bookEffect>0">{{`${pn(bookEffect)}点击/秒`}}</span>
 			</div>
 			<div v-if="moCount>=10">
